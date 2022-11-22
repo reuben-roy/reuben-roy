@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Reuben</h1>
-<h3 align="center">A passionate FullStack developer from Kerala, India</h3>
+<h3 align="center">A FullStack developer from Kerala, India</h3>
 
 - 🔭 I’m currently working on [Resume-Project](https://github.com/reuben-roy/Resume-Project)
 
