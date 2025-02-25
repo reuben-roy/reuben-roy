@@ -5,18 +5,17 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/reuben-roy/](https://github.com/reuben-roy/)
 
-- 💬 Ask me about **ThreeJs, SpringBoot, Python, Wordpress**
+- 💬 Ask me about **ThreeJs, SpringBoot, Python, OpenCV, DataViz**
 
 - 📫 How to reach me **reubenroyk@gmail.com**
+- 📫 ASU email address **rkochuk1@asu.edu**
 
 - 📄 Know about my experiences [https://explosion.fun](https://explosion.fun)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/reuben-roy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="reuben-roy" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/bennimaru" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="bennimaru" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/reubenroyk" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="reubenroyk" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/reubenroyk" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="reubenroyk" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
