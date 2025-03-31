@@ -1,9 +1,168 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="5RhzBka65qGPwYkBd_ia">
-    <mxGraphModel>
+    <mxGraphModel dx="2669" dy="1771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="170" y="170" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mk_AZeRoqayi4PP0GS_G-9" target="Mk_AZeRoqayi4PP0GS_G-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-39" value="After 20 mins of Washing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mk_AZeRoqayi4PP0GS_G-22">
+          <mxGeometry x="-0.0888" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-9" value="&lt;b&gt;Wash&lt;/b&gt;" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=0;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="121" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-13" value="entry/ Dirty cloths are added to washing machine&lt;div&gt;do/ Wash cloths cycle is started&lt;/div&gt;&lt;div&gt;exit/ Washing cloths complete&lt;/div&gt;" style="align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="Mk_AZeRoqayi4PP0GS_G-9">
+          <mxGeometry y="30" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-32" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.168;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.201;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mk_AZeRoqayi4PP0GS_G-19" target="Mk_AZeRoqayi4PP0GS_G-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-47" value="Pause command received" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mk_AZeRoqayi4PP0GS_G-32">
+          <mxGeometry x="-0.0565" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mk_AZeRoqayi4PP0GS_G-18" target="Mk_AZeRoqayi4PP0GS_G-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-50" value="After 5 mins of Spinning" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mk_AZeRoqayi4PP0GS_G-44">
+          <mxGeometry x="0.1629" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-18" value="&lt;b&gt;Spin&lt;/b&gt;" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=0;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="840" y="121" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-19" value="entry/ Water and detergent enter washing machine tub&lt;div&gt;do/ Spinning of cloths&lt;/div&gt;&lt;div&gt;exit/ Spinning cloths is completed&lt;/div&gt;" style="align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="Mk_AZeRoqayi4PP0GS_G-18">
+          <mxGeometry y="30" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.014;exitY=0.068;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="221" as="targetPoint" />
+            <mxPoint x="590.6400000000001" y="387.79999999999995" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-61" value="Resume command received" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mk_AZeRoqayi4PP0GS_G-60">
+          <mxGeometry x="0.4407" y="1" relative="1" as="geometry">
+            <mxPoint y="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-28" value="&lt;b&gt;Idle&lt;/b&gt;" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=0;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="594" y="360" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-29" value="entry/ External command received to pause&amp;nbsp; (stop) cycle&lt;div&gt;do/ Pause (stop) machine cycle until Resume command is received&lt;/div&gt;&lt;div&gt;exit/ Resume cycle when Resume command is received&lt;/div&gt;" style="align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="Mk_AZeRoqayi4PP0GS_G-28">
+          <mxGeometry y="30" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.414;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mk_AZeRoqayi4PP0GS_G-1" target="Mk_AZeRoqayi4PP0GS_G-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-56" value="Start" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mk_AZeRoqayi4PP0GS_G-36">
+          <mxGeometry x="-0.2054" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mk_AZeRoqayi4PP0GS_G-42" target="Mk_AZeRoqayi4PP0GS_G-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-55" value="After 7 mins of Rinsing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mk_AZeRoqayi4PP0GS_G-54">
+          <mxGeometry x="-0.0141" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-42" value="&lt;b&gt;Rinse&lt;/b&gt;" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=0;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="360" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-43" value="entry/ Cloths still having detergent after spin&lt;div&gt;do/ Rinse cloths with water&lt;/div&gt;&lt;div&gt;exit/ Soak cloths in water to remove detergent&lt;/div&gt;" style="align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="Mk_AZeRoqayi4PP0GS_G-42">
+          <mxGeometry y="30" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.13;exitY=1.023;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Mk_AZeRoqayi4PP0GS_G-13" target="Mk_AZeRoqayi4PP0GS_G-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-46" value="Pause command Received" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mk_AZeRoqayi4PP0GS_G-45">
+          <mxGeometry x="-0.3358" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.352;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="390.0000000000001" as="sourcePoint" />
+            <mxPoint x="834" y="390.19999999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-49" value="Pause command received" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mk_AZeRoqayi4PP0GS_G-48">
+          <mxGeometry x="-0.0803" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-65" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.127;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Mk_AZeRoqayi4PP0GS_G-53" target="Mk_AZeRoqayi4PP0GS_G-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-67" value="After 3 mins of Spinning" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mk_AZeRoqayi4PP0GS_G-65">
+          <mxGeometry x="-0.2376" y="-3" relative="1" as="geometry">
+            <mxPoint x="-10" y="-35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.842;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Mk_AZeRoqayi4PP0GS_G-53" target="Mk_AZeRoqayi4PP0GS_G-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-69" value="Dry Detected" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mk_AZeRoqayi4PP0GS_G-68">
+          <mxGeometry x="-0.3047" y="-1" relative="1" as="geometry">
+            <mxPoint x="-6" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-52" value="&lt;b&gt;Spin Again&lt;/b&gt;" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=0;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="540" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-53" value="entry/ Rinsed wet cloths in tub&lt;div&gt;do/ Spin cloths and drain water from cloths&lt;/div&gt;&lt;div&gt;exit/ Excess water is removed from cloths&lt;/div&gt;" style="align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="Mk_AZeRoqayi4PP0GS_G-52">
+          <mxGeometry y="30" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.802;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.851;exitY=-0.019;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Mk_AZeRoqayi4PP0GS_G-28" target="Mk_AZeRoqayi4PP0GS_G-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-59" value="Resume command received" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mk_AZeRoqayi4PP0GS_G-57">
+          <mxGeometry x="-0.1223" y="-3" relative="1" as="geometry">
+            <mxPoint x="48" y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Mk_AZeRoqayi4PP0GS_G-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-63" value="Resume command received" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mk_AZeRoqayi4PP0GS_G-62">
+          <mxGeometry x="-0.1355" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-64" value="" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=4;startSize=30;rounded=1;arcSize=50;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="820" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-71" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.849;entryY=1.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mk_AZeRoqayi4PP0GS_G-52" target="Mk_AZeRoqayi4PP0GS_G-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-72" value="Pause command received" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mk_AZeRoqayi4PP0GS_G-71">
+          <mxGeometry x="-0.0389" y="1" relative="1" as="geometry">
+            <mxPoint x="103" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-73" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mk_AZeRoqayi4PP0GS_G-29" target="Mk_AZeRoqayi4PP0GS_G-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-74" value="Resume command received" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mk_AZeRoqayi4PP0GS_G-73">
+          <mxGeometry x="-0.1526" y="1" relative="1" as="geometry">
+            <mxPoint x="-66" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mk_AZeRoqayi4PP0GS_G-76" value="Washing is complete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="840" width="130" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
