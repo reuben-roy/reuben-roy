@@ -9,9 +9,8 @@ on:
 
 # NOTE: this workflow commits the generated SVGs back to `main`, so it is
 # intentionally NOT triggered on push (that would create a commit loop).
-# Requires a repo secret named METRICS_TOKEN — a Personal Access Token
-# (classic, with `repo` scope, or a fine-grained token with read access to
-# your repos + metadata). See the setup checklist in the PR / handoff notes.
+# Requires a classic personal access token in the METRICS_TOKEN secret.
+# No additional scopes are needed for public metrics.
 
 permissions:
   contents: write
@@ -20,7 +19,7 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Overview — stats, languages, activity, habits
+      - name: Overview — stats, languages, activity
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
@@ -29,14 +28,11 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Phoenix
-          config_theme: github_dark
           plugin_languages: yes
           plugin_languages_details: percentage, bytes-size
           plugin_languages_limit: 8
           plugin_lines: yes
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          # Habits is disabled until upstream handles push events without commits.
 
       - name: 3D isometric contribution calendar
         uses: lowlighter/metrics@latest
@@ -45,6 +41,5 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: reuben-roy
           base: ""
-          config_theme: github_dark
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
